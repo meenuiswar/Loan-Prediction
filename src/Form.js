@@ -32,7 +32,7 @@ class Form extends Component {
   callApi() {
     var income = this.state.income;
     var co_income = this.state.co_income;
-    var proxyUrl = 'https://cors-anywhere.herokuapp.com/',
+    var proxyUrl = 'https://lit-brushlands-56829.herokuapp.com/',
       targetUrl = "https://loan-status-api.herokuapp.com/calculate?ApplicantIncome=" + income + "&CoapplicantIncome=" + co_income;
 
     console.log(targetUrl);
